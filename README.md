@@ -14,20 +14,29 @@
 - Integración básica con Google Maps
 - Modularidad con `Adapter`, `DAO`, `Entities`, y `Coroutines`
 
-## 📲 Funcionalidades principales
+## 📲 Funcionalidades implementadas
 
-- ✅ Registro y login de usuarios
-- ✅ Agendar nuevas citas médicas
-- ✅ Selección dinámica de:
-  - Especialidad
-  - Doctor
-  - Consultorio
-  - Horario
-- ✅ Visualización de citas agendadas (con opción de editar o eliminar)
-- ✅ Edición de una cita existente manteniendo sus datos cargados
-- ✅ Eliminación de citas desde la misma interfaz
-- ✅ Uso de Google Maps para ubicación (permiso de ubicación incluido)
-- ✅ Validaciones básicas para asegurar una buena experiencia de usuario
+- 🧑‍⚕️ **Login simulado de usuario**
+- 📅 **Agendar citas médicas**
+- 🔁 **Actualizar y eliminar citas**
+- 🧠 **Selección dependiente de especialidad, doctor, horario y consultorio**
+- 🗺️ **Mapa con permiso de ubicación**
+- ✔️ Validaciones básicas al ingresar datos
+- 🧱 Uso de `Room` con múltiples entidades
+
+---
+## ⚠️ Importante
+
+> **Este proyecto NO está diseñado para uso real en clínicas o centros médicos.**
+
+Aspectos **pendientes o no implementados** que serían necesarios para un uso industrial:
+
+- ❌ Validaciones robustas y reglas de negocio (ej: evitar duplicidad de citas)
+- ❌ Seguridad en login / autenticación real
+- ❌ Sincronización con servidores / APIs reales
+- ❌ Manejo de errores avanzado
+- ❌ Accesibilidad
+- ❌ Diseño UI/UX profesional
 
 ---
 ## 🧩 Estructura del proyecto
@@ -64,4 +73,5 @@ Además, incluye:
 
 ## 👨‍💻 Autor
 Desarrollado por Natacha Caceres
+
 Estudiante de Ingeniería en Informática
